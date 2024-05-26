@@ -14,8 +14,8 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/tpope/vim-surround'
-
-
+Plug 'https://github.com/tc50cal/vim-terminal'
+Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 
 call plug#end()
 
