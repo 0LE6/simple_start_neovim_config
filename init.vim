@@ -17,6 +17,7 @@ Plug 'https://github.com/tpope/vim-surround'
 Plug 'https://github.com/tc50cal/vim-terminal'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/ryanoasis/vim-devicons'
+Plug 'https://github.com/neoclide/coc.nvim'
 
 call plug#end()
 
@@ -28,6 +29,11 @@ call plug#end()
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
+
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
