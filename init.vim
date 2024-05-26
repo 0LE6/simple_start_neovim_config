@@ -16,8 +16,14 @@ Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/tpope/vim-surround'
 Plug 'https://github.com/tc50cal/vim-terminal'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
+Plug 'https://github.com/ryanoasis/vim-devicons'
 
 call plug#end()
+
+" :colorscheme sonokai
+" :colorscheme happy_hacking
+:colorscheme gruvbox
+
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
