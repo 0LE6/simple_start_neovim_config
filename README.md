@@ -1,1 +1,0 @@
-# simple_start_neovim_config
