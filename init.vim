@@ -18,6 +18,10 @@ Plug 'https://github.com/tc50cal/vim-terminal'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/neoclide/coc.nvim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" NOTE: sudo apt install ripgrep  
 
 call plug#end()
 
